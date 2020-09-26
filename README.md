@@ -15,12 +15,14 @@ Can be customized using `color` query.
 | Orange     | `?color=orange` | ![orange][]
 | Pink       | `?color=pink`   | ![pink][]
 | Red        | `?color=red`    | ![red][]
-| Yellow        | `?color=yellow`    | ![yellow][]
-| default             | none            | ![default][]
+| Yellow     | `?color=yellow` | ![yellow][]
+| default    | none/invalid    | ![default][]
 
 ## Changes
 
-- Updated badges to use SVG instead of gif
+> Fork of [igrigorik/ga-beacon](https://github.com/igrigorik/ga-beacon).
+
+- Updated badges to use SVG
 - More color options
 - Support go1.12+, use logrus
 
